@@ -43,6 +43,32 @@ public class Health : MonoBehaviour
     {
         currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
     }
+
+    //Respawn
+    public void Respawn()
+    {
+        if (dead)
+        {
+            // Réinitialiser le statut de "mort"
+            dead = false;
+
+            // Réinitialiser la santé
+            AddHealth(startingHealth);
+
+            // Réinitialiser les triggers d'animation
+            anim.ResetTrigger("die");
+            anim.SetTrigger("respawn");
+
+            // Rejouer l'animation "Idle"
+            anim.Play("Idle");
+
+            // Réactiver le mouvement du joueur
+            GetComponent<PlayerMovement>().enabled = true;
+
+            // Activer l'invulnérabilité temporaire après la réapparition
+            StartCoroutine(Invunerability());
+        }
+    }
     private IEnumerator Invunerability()
     {
         Physics2D.IgnoreLayerCollision(10, 11, true);
