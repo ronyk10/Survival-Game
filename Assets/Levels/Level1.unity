@@ -13309,6 +13309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spikes (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2930733987591374043, guid: a634171a5e6d54f4e87847c0766604f5, type: 3}
+      propertyPath: damage
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8051330469072639235, guid: a634171a5e6d54f4e87847c0766604f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 50.99
@@ -13411,63 +13415,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e11a102c6079f046a83365688372de1, type: 3}
---- !u!1001 &6244864946606945583
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3927443009870026729, guid: 9b42501c15d9184488406e4b51f351ee, type: 3}
-      propertyPath: m_Name
-      value: HearthCollectible
-      objectReference: {fileID: 0}
-    - target: {fileID: 7022592033114481139, guid: 9b42501c15d9184488406e4b51f351ee, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 29.19
-      objectReference: {fileID: 0}
-    - target: {fileID: 7022592033114481139, guid: 9b42501c15d9184488406e4b51f351ee, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.68
-      objectReference: {fileID: 0}
-    - target: {fileID: 7022592033114481139, guid: 9b42501c15d9184488406e4b51f351ee, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7022592033114481139, guid: 9b42501c15d9184488406e4b51f351ee, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7022592033114481139, guid: 9b42501c15d9184488406e4b51f351ee, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7022592033114481139, guid: 9b42501c15d9184488406e4b51f351ee, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7022592033114481139, guid: 9b42501c15d9184488406e4b51f351ee, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7022592033114481139, guid: 9b42501c15d9184488406e4b51f351ee, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7022592033114481139, guid: 9b42501c15d9184488406e4b51f351ee, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7022592033114481139, guid: 9b42501c15d9184488406e4b51f351ee, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9b42501c15d9184488406e4b51f351ee, type: 3}
 --- !u!1001 &6860390301749986925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13655,6 +13602,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 459494229716645680, guid: 1ec501bb38e371540ba9ef21acd6c5c0, type: 3}
+      propertyPath: damage
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5820873961519071895, guid: 1ec501bb38e371540ba9ef21acd6c5c0, type: 3}
       propertyPath: m_Name
       value: Spikes
@@ -13715,7 +13666,6 @@ SceneRoots:
   - {fileID: 2116663934}
   - {fileID: 1313244143}
   - {fileID: 5893487411626145189}
-  - {fileID: 6244864946606945583}
   - {fileID: 1782596248}
   - {fileID: 9057579975153244525}
   - {fileID: 2385279254698193394}
