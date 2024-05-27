@@ -10,9 +10,10 @@ public class PlayerRespawn : MonoBehaviour
     private void Awake()
     {
         playerHealth = GetComponent<Health>();
+        uiManager = FindObjectOfType<UIManager>();
     }
 
-    public void CheckRespawn()
+    public void RespawnCheck()
     {
         if (currentCheckpoint == null)
         {
