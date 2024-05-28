@@ -21,13 +21,13 @@ public class SelectionArrow : MonoBehaviour
     private void Update()
     {
         //Change the position of the selection arrow
-        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
             ChangePosition(-1);
-        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.DownArrow))
             ChangePosition(1);
 
         //Interact with current option
-        if (Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Return))
             Interact();
     }
 
