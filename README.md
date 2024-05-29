@@ -54,7 +54,7 @@ Plusieurs fonctionnalités ont été développées :
 - PV collectibles
 
 ## Cheat Sheet
-Vous trouverez ici toutes les aides pour les niveaux du jeu pouvant être jugées trop compliquées :
+Vous trouverez ici toutes les aides pour les niveaux du jeu pouvant être juges trop compliquées :
 
 ### GLOBAL
 Certains pièges font perdre plus de PV que d'autres. Bonne découverte !
