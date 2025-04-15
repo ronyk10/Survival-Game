@@ -1,7 +1,7 @@
 
 # Survival Game
 
-Bienvenue dans mon projet final du module de GameProgramming dispensé au 2e années d'informatique à Lyon Ynov Campus !
+Bienvenue dans mon projet final du module de GameProgramming dispensé aux 2e années d'informatique à Lyon Ynov Campus !
 
 Survival Game est un platformer 2D réalisé en l'espace de deux semaines avec Unity. 
 
